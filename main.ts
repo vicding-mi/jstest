@@ -336,25 +336,25 @@ async function main() {
 
         console.log('\n=== Original JSON-LD ===');
         console.log('\n=== Saved to  original.json ===');
-        await saveJsonToFile('./original.json', result.original);
+        await saveJsonToFile('./output/original.json', result.original);
 
         console.log('\n=== With Compacted Applied ===');
         console.log('\n=== Saved to compacted.json ===');
-        await saveJsonToFile('./compacted.json', result.compacted);
+        await saveJsonToFile('./output/compacted.json', result.compacted);
 
         console.log('\n=== With Context Applied ===');
         const contextApplied = await processor.applyContext(result.original, customContext);
         console.log('\n=== Saved to contexted.json ===');
-        await saveJsonToFile('./contexted.json', contextApplied);
+        await saveJsonToFile('./output/contexted.json', contextApplied);
 
         if (result.framed) {
             console.log('\n=== Framed Document (Places only) ===');
             console.log('\n=== Saved to framed.json ===');
-            await saveJsonToFile('./framed.json', result.framed);
+            await saveJsonToFile('./output/framed.json', result.framed);
             console.log('\n=== Framed & Contexted Document ===');
             // Apply context to the framed document before output
             const framedAndContexted = await processor.applyContext(result.framed, customContext);
-            const outputPath = './result.json';
+            const outputPath = './output/result.json';
             await saveJsonToFile(outputPath, framedAndContexted);
             console.log(`Result written to ${outputPath}`);
         }

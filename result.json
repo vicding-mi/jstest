@@ -1,0 +1,56 @@
+{
+  "@context": [
+    {
+      "geo": "http://www.opengis.net/ont/geosparql#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "aaao": "https://ontology.swissartresearch.net/aaao/",
+      "sar": "https://example.swissartresearch.net/",
+      "crmgeo": "http://www.ics.forth.gr/isl/CRMgeo/",
+      "aat": "http://vocab.getty.edu/page/aat/",
+      "is_appellative_subject_of": {
+        "@id": "aaao:ZP5i_is_appellative_subject_of",
+        "@type": "@id"
+      },
+      "ascribes_appellation": {
+        "@id": "aaao:ZP6_ascribes_appellation",
+        "@type": "@id"
+      },
+      "is_appellation_ascribed_by": {
+        "@id": "aaao:ZP6i_is_appellation_ascribed_by",
+        "@type": "@id"
+      },
+      "is_classificatory_subject_of": {
+        "@id": "aaao:ZP11i_is_classificatory_subject_of",
+        "@type": "@id"
+      },
+      "ascribes_classification": {
+        "@id": "aaao:ZP12_ascribes_classification",
+        "@type": "@id"
+      },
+      "ascribes_place": {
+        "@id": "aaao:ZP77_ascribes_place",
+        "@type": "@id"
+      },
+      "is_topographical_subject_of": {
+        "@id": "aaao:ZP85i_is_topographical_subject_of",
+        "@type": "@id"
+      },
+      "defined_by": {
+        "@id": "crmgeo:Q10_defined_by",
+        "@type": "@id"
+      },
+      "is_approximated_by": {
+        "@id": "crmgeo:Q11i_is_approximated_by",
+        "@type": "@id"
+      },
+      "AppellativeStatus": "aaao:ZE2_Appellative_Status",
+      "ClassificatoryStatus": "aaao:ZE4_Classificatory_Status",
+      "TopographicalStatus": "aaao:ZE44_Topographical_Status",
+      "GeometricPlaceExpression": "crmgeo:SP5_Geometric_Place_Expression",
+      "DeclarativePlace": "crmgeo:SP6_Declarative_Place"
+    },
+    "https://linked.art/ns/v1/linked-art.json"
+  ]
+}

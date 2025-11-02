@@ -1,0 +1,573 @@
+{
+  "@context": [
+    {
+      "geo": "http://www.opengis.net/ont/geosparql#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "aaao": "https://ontology.swissartresearch.net/aaao/",
+      "sar": "https://example.swissartresearch.net/",
+      "crmgeo": "http://www.ics.forth.gr/isl/CRMgeo/",
+      "aat": "http://vocab.getty.edu/page/aat/",
+      "is_appellative_subject_of": {
+        "@id": "aaao:ZP5i_is_appellative_subject_of",
+        "@type": "@id"
+      },
+      "ascribes_appellation": {
+        "@id": "aaao:ZP6_ascribes_appellation",
+        "@type": "@id"
+      },
+      "is_appellation_ascribed_by": {
+        "@id": "aaao:ZP6i_is_appellation_ascribed_by",
+        "@type": "@id"
+      },
+      "is_classificatory_subject_of": {
+        "@id": "aaao:ZP11i_is_classificatory_subject_of",
+        "@type": "@id"
+      },
+      "ascribes_classification": {
+        "@id": "aaao:ZP12_ascribes_classification",
+        "@type": "@id"
+      },
+      "ascribes_place": {
+        "@id": "aaao:ZP77_ascribes_place",
+        "@type": "@id"
+      },
+      "is_topographical_subject_of": {
+        "@id": "aaao:ZP85i_is_topographical_subject_of",
+        "@type": "@id"
+      },
+      "defined_by": {
+        "@id": "crmgeo:Q10_defined_by",
+        "@type": "@id"
+      },
+      "is_approximated_by": {
+        "@id": "crmgeo:Q11i_is_approximated_by",
+        "@type": "@id"
+      },
+      "AppellativeStatus": "aaao:ZE2_Appellative_Status",
+      "ClassificatoryStatus": "aaao:ZE4_Classificatory_Status",
+      "TopographicalStatus": "aaao:ZE44_Topographical_Status",
+      "GeometricPlaceExpression": "crmgeo:SP5_Geometric_Place_Expression",
+      "DeclarativePlace": "crmgeo:SP6_Declarative_Place"
+    },
+    "https://linked.art/ns/v1/linked-art.json"
+  ],
+  "@graph": [
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "rdf:type": {
+        "id": "crm:E53_Place"
+      }
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "referred_to_by": [
+        "uuid:6b901915-b0c5-4048-9d7c-1e6187ff02f9"
+      ]
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "referred_to_by": [
+        "uuid:5888895e-10b3-4ffb-8284-37b5f9bc40aa"
+      ]
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "referred_to_by": [
+        "uuid:a8b84509-040b-48f2-8faf-892f1a6d9bad"
+      ]
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "identified_by": [
+        "uuid:7ffffc21-7bc4-44c5-8eb9-22c4daab4055"
+      ]
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "is_approximated_by": "uuid:b88cea0d-1127-4c43-a743-9ef87a108801"
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "is_appellative_subject_of": "uuid:a3e1a34e-219b-4b9d-928c-e21ec1705058"
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "is_appellative_subject_of": "uuid:ad8cfb8b-49ca-41c6-9d4a-4c4b6b9ddbba"
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "is_appellative_subject_of": "uuid:b25a991a-d64f-434d-b468-5cd4ecdf739b"
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "is_topographical_subject_of": "uuid:0e30e0c9-38a3-4ba5-a832-f13d03017dfe"
+    },
+    {
+      "id": "https://data.globalise.huygens.knaw.nl/hdl:20.500.14722/place:fff802bd-bb40-466b-9c72-10d8c437912f",
+      "is_classificatory_subject_of": "uuid:89155529-b8c3-439b-9d27-0eaa466a7721"
+    },
+    {
+      "id": "uuid:6b901915-b0c5-4048-9d7c-1e6187ff02f9",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "uuid:6b901915-b0c5-4048-9d7c-1e6187ff02f9",
+      "content": "[CONTEXT] GM 3:117-118 refers to this place in relation to Taiwan, identifying it as the place where the redoubt Zeeburg was located. According to the AMH, the Baxemboy sandbank is \"nowadays the Luermen area just outside Tainan.\" [COORD] [INFERENCE] The AMH coordinates of the Zeeburg redoubt are used here as an inference for Baxempoy because this redoubt was located on the Baxempoy sandbank."
+    },
+    {
+      "id": "uuid:6b901915-b0c5-4048-9d7c-1e6187ff02f9",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300435415"
+      ]
+    },
+    {
+      "id": "uuid:5888895e-10b3-4ffb-8284-37b5f9bc40aa",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "uuid:5888895e-10b3-4ffb-8284-37b5f9bc40aa",
+      "identified_by": [
+        "uuid:dbd30bb2-a969-4062-aab2-2fec97facf87"
+      ]
+    },
+    {
+      "id": "uuid:5888895e-10b3-4ffb-8284-37b5f9bc40aa",
+      "crm:P106i_forms_part_of": {
+        "id": "https://www.zotero.org/groups/4678659/items/3M4BR7YH"
+      }
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300435415",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "uuid:dbd30bb2-a969-4062-aab2-2fec97facf87",
+      "rdf:type": {
+        "id": "crm:E42_Identifier"
+      }
+    },
+    {
+      "id": "uuid:dbd30bb2-a969-4062-aab2-2fec97facf87",
+      "content": "117-118"
+    },
+    {
+      "id": "uuid:dbd30bb2-a969-4062-aab2-2fec97facf87",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300445022"
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300445022",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "https://www.zotero.org/groups/4678659/items/3M4BR7YH",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "https://www.zotero.org/groups/4678659/items/3M4BR7YH",
+      "_label": "https://www.zotero.org/groups/4678659/items/3M4BR7YH"
+    },
+    {
+      "id": "uuid:b88cea0d-1127-4c43-a743-9ef87a108801",
+      "rdf:type": {
+        "id": "crmgeo:SP6_Declarative_Place"
+      }
+    },
+    {
+      "id": "uuid:b88cea0d-1127-4c43-a743-9ef87a108801",
+      "crmgeo:Q10_defined_by": {
+        "id": "uuid:1a7cd731-2a0e-4a3e-92c0-d28dc5de9fe5"
+      }
+    },
+    {
+      "id": "uuid:1a7cd731-2a0e-4a3e-92c0-d28dc5de9fe5",
+      "rdf:type": {
+        "id": "crmgeo:SP5_Geometric_Place_Expression"
+      }
+    },
+    {
+      "id": "uuid:1a7cd731-2a0e-4a3e-92c0-d28dc5de9fe5",
+      "referred_to_by": [
+        "uuid:fffcb79c-efa2-454d-aa76-2830149528da"
+      ]
+    },
+    {
+      "id": "uuid:1a7cd731-2a0e-4a3e-92c0-d28dc5de9fe5",
+      "classified_as": [
+        "https://vocab.getty.edu/aat/300387567"
+      ]
+    },
+    {
+      "id": "uuid:1a7cd731-2a0e-4a3e-92c0-d28dc5de9fe5",
+      "assigned_by": [
+        "uuid:dfb3cd87-5755-41b1-9961-f678b02e6f27"
+      ]
+    },
+    {
+      "id": "uuid:1a7cd731-2a0e-4a3e-92c0-d28dc5de9fe5",
+      "geo:asWkt": {
+        "type": "geo:wktLiteral",
+        "@value": "POINT(120.135285,23.020395)"
+      }
+    },
+    {
+      "id": "uuid:dfb3cd87-5755-41b1-9961-f678b02e6f27",
+      "rdf:type": {
+        "id": "crm:E13_Attribute_Assignment"
+      }
+    },
+    {
+      "id": "uuid:dfb3cd87-5755-41b1-9961-f678b02e6f27",
+      "classified_as": [
+        "http://example.com/uncertain"
+      ]
+    },
+    {
+      "id": "http://example.com/uncertain",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "http://example.com/uncertain",
+      "classified_as": [
+        "http://example.com/Levels_of_Certainty"
+      ]
+    },
+    {
+      "id": "http://example.com/Levels_of_Certainty",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "https://vocab.getty.edu/aat/300387567",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "uuid:fffcb79c-efa2-454d-aa76-2830149528da",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "uuid:fffcb79c-efa2-454d-aa76-2830149528da",
+      "identified_by": [
+        "uuid:85b9c765-d096-41ec-96d6-4b01d8449bb4"
+      ]
+    },
+    {
+      "id": "uuid:fffcb79c-efa2-454d-aa76-2830149528da",
+      "crm:P106i_forms_part_of": {
+        "id": "https://www.zotero.org/groups/4678659/items/JIKCJKVD"
+      }
+    },
+    {
+      "id": "uuid:85b9c765-d096-41ec-96d6-4b01d8449bb4",
+      "rdf:type": {
+        "id": "crm:E42_Identifier"
+      }
+    },
+    {
+      "id": "uuid:85b9c765-d096-41ec-96d6-4b01d8449bb4",
+      "content": "amh_287c"
+    },
+    {
+      "id": "uuid:85b9c765-d096-41ec-96d6-4b01d8449bb4",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300445022"
+      ]
+    },
+    {
+      "id": "https://www.zotero.org/groups/4678659/items/JIKCJKVD",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "https://www.zotero.org/groups/4678659/items/JIKCJKVD",
+      "_label": "https://www.zotero.org/groups/4678659/items/JIKCJKVD"
+    },
+    {
+      "id": "uuid:7ffffc21-7bc4-44c5-8eb9-22c4daab4055",
+      "rdf:type": {
+        "id": "crm:E42_Identifier"
+      }
+    },
+    {
+      "id": "uuid:7ffffc21-7bc4-44c5-8eb9-22c4daab4055",
+      "content": "GLOB_199_GEO_1"
+    },
+    {
+      "id": "uuid:7ffffc21-7bc4-44c5-8eb9-22c4daab4055",
+      "classified_as": [
+        "http://example.com/glob_id"
+      ]
+    },
+    {
+      "id": "http://example.com/glob_id",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "uuid:a3e1a34e-219b-4b9d-928c-e21ec1705058",
+      "rdf:type": {
+        "id": "aaao:ZE2_Appellative_Status"
+      }
+    },
+    {
+      "id": "uuid:a3e1a34e-219b-4b9d-928c-e21ec1705058",
+      "referred_to_by": [
+        "uuid:3e424756-eddd-4d56-86f8-7242edaeaa08"
+      ]
+    },
+    {
+      "id": "uuid:a3e1a34e-219b-4b9d-928c-e21ec1705058",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300264273"
+      ]
+    },
+    {
+      "id": "uuid:a3e1a34e-219b-4b9d-928c-e21ec1705058",
+      "ascribes_appellation": "uuid:9cba1361-c7d0-41c4-81b1-2fb03b69f134"
+    },
+    {
+      "id": "uuid:9cba1361-c7d0-41c4-81b1-2fb03b69f134",
+      "rdf:type": {
+        "id": "crm:E33_E41_Linguistic_Appellation"
+      }
+    },
+    {
+      "id": "uuid:9cba1361-c7d0-41c4-81b1-2fb03b69f134",
+      "content": "Baxempoy"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300264273",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "uuid:3e424756-eddd-4d56-86f8-7242edaeaa08",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "uuid:3e424756-eddd-4d56-86f8-7242edaeaa08",
+      "content": "[DJANGO IMPORT] Imported from Standard Label."
+    },
+    {
+      "id": "uuid:0e30e0c9-38a3-4ba5-a832-f13d03017dfe",
+      "rdf:type": {
+        "id": "aaao:ZE44_Topographical_Status"
+      }
+    },
+    {
+      "id": "uuid:0e30e0c9-38a3-4ba5-a832-f13d03017dfe",
+      "classified_as": [
+        "skos:related"
+      ]
+    },
+    {
+      "id": "uuid:0e30e0c9-38a3-4ba5-a832-f13d03017dfe",
+      "ascribes_place": "md5:551fe18ef47d4e6e9d943b9a68ada21d"
+    },
+    {
+      "id": "md5:551fe18ef47d4e6e9d943b9a68ada21d",
+      "rdf:type": {
+        "id": "crm:E53_Place"
+      }
+    },
+    {
+      "id": "md5:551fe18ef47d4e6e9d943b9a68ada21d",
+      "_label": "Taiwan"
+    },
+    {
+      "id": "skos:related",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "uuid:89155529-b8c3-439b-9d27-0eaa466a7721",
+      "rdf:type": {
+        "id": "aaao:ZE4_Classificatory_Status"
+      }
+    },
+    {
+      "id": "uuid:89155529-b8c3-439b-9d27-0eaa466a7721",
+      "referred_to_by": [
+        "uuid:efe790e8-ba84-401d-a5a6-92547bedeb58"
+      ]
+    },
+    {
+      "id": "uuid:89155529-b8c3-439b-9d27-0eaa466a7721",
+      "ascribes_classification": "https://digitaalerfgoed.poolparty.biz/globalise/b7823bf7-0cce-41d1-bfc2-851fdf414fca"
+    },
+    {
+      "id": "https://digitaalerfgoed.poolparty.biz/globalise/b7823bf7-0cce-41d1-bfc2-851fdf414fca",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "uuid:efe790e8-ba84-401d-a5a6-92547bedeb58",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "uuid:efe790e8-ba84-401d-a5a6-92547bedeb58",
+      "identified_by": [
+        "uuid:e4cfa68d-ecd8-494a-997a-6eb75e627a37"
+      ]
+    },
+    {
+      "id": "uuid:efe790e8-ba84-401d-a5a6-92547bedeb58",
+      "crm:P106i_forms_part_of": {
+        "id": "https://www.zotero.org/groups/4678659/items/JIKCJKVD"
+      }
+    },
+    {
+      "id": "uuid:e4cfa68d-ecd8-494a-997a-6eb75e627a37",
+      "rdf:type": {
+        "id": "crm:E42_Identifier"
+      }
+    },
+    {
+      "id": "uuid:e4cfa68d-ecd8-494a-997a-6eb75e627a37",
+      "content": "https://www.atlasofmutualheritage.nl/page/2182/zeeburg-redoubt-taiwan"
+    },
+    {
+      "id": "uuid:e4cfa68d-ecd8-494a-997a-6eb75e627a37",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300445022"
+      ]
+    },
+    {
+      "id": "uuid:ad8cfb8b-49ca-41c6-9d4a-4c4b6b9ddbba",
+      "rdf:type": {
+        "id": "aaao:ZE2_Appellative_Status"
+      }
+    },
+    {
+      "id": "uuid:ad8cfb8b-49ca-41c6-9d4a-4c4b6b9ddbba",
+      "referred_to_by": [
+        "uuid:fa34b966-e313-4fbe-986b-faa1e001e5d3"
+      ]
+    },
+    {
+      "id": "uuid:ad8cfb8b-49ca-41c6-9d4a-4c4b6b9ddbba",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300404670"
+      ]
+    },
+    {
+      "id": "uuid:ad8cfb8b-49ca-41c6-9d4a-4c4b6b9ddbba",
+      "ascribes_appellation": "uuid:10a04f57-b7ae-48fa-8aaf-c9d3c49c2a6c"
+    },
+    {
+      "id": "uuid:10a04f57-b7ae-48fa-8aaf-c9d3c49c2a6c",
+      "rdf:type": {
+        "id": "crm:E33_E41_Linguistic_Appellation"
+      }
+    },
+    {
+      "id": "uuid:10a04f57-b7ae-48fa-8aaf-c9d3c49c2a6c",
+      "content": "Pei-hsien-wei"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300404670",
+      "rdf:type": {
+        "id": "crm:E55_Type"
+      }
+    },
+    {
+      "id": "uuid:fa34b966-e313-4fbe-986b-faa1e001e5d3",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "uuid:fa34b966-e313-4fbe-986b-faa1e001e5d3",
+      "content": "According to Laurence G. Thompson, the place which the Dutch named Baxamboy was called 'Pei-hsien-wei' in Chinese."
+    },
+    {
+      "id": "uuid:b25a991a-d64f-434d-b468-5cd4ecdf739b",
+      "rdf:type": {
+        "id": "aaao:ZE2_Appellative_Status"
+      }
+    },
+    {
+      "id": "uuid:b25a991a-d64f-434d-b468-5cd4ecdf739b",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300264273"
+      ]
+    },
+    {
+      "id": "uuid:b25a991a-d64f-434d-b468-5cd4ecdf739b",
+      "ascribes_appellation": "uuid:ec2c8b17-da59-4ae9-aa67-f37b7f7e7629"
+    },
+    {
+      "id": "uuid:ec2c8b17-da59-4ae9-aa67-f37b7f7e7629",
+      "rdf:type": {
+        "id": "crm:E33_E41_Linguistic_Appellation"
+      }
+    },
+    {
+      "id": "uuid:ec2c8b17-da59-4ae9-aa67-f37b7f7e7629",
+      "content": "Paxempoy"
+    },
+    {
+      "id": "uuid:a8b84509-040b-48f2-8faf-892f1a6d9bad",
+      "rdf:type": {
+        "id": "crm:E33_Linguistic_Object"
+      }
+    },
+    {
+      "id": "uuid:a8b84509-040b-48f2-8faf-892f1a6d9bad",
+      "identified_by": [
+        "uuid:6ce1a54f-225b-494f-a620-2c5542c90cec"
+      ]
+    },
+    {
+      "id": "uuid:a8b84509-040b-48f2-8faf-892f1a6d9bad",
+      "crm:P106i_forms_part_of": {
+        "id": "https://www.zotero.org/groups/4678659/items/JIKCJKVD"
+      }
+    },
+    {
+      "id": "uuid:6ce1a54f-225b-494f-a620-2c5542c90cec",
+      "rdf:type": {
+        "id": "crm:E42_Identifier"
+      }
+    },
+    {
+      "id": "uuid:6ce1a54f-225b-494f-a620-2c5542c90cec",
+      "content": "https://www.atlasofmutualheritage.nl/page/2182/zeeburg-redoubt-taiwan"
+    },
+    {
+      "id": "uuid:6ce1a54f-225b-494f-a620-2c5542c90cec",
+      "classified_as": [
+        "http://vocab.getty.edu/aat/300445022"
+      ]
+    }
+  ]
+}

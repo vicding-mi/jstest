@@ -92,7 +92,11 @@ async function main() {
 }
 
 // Run examples
-if (require.main === module) {
+// if (require.main === module) {
+//     main().catch(console.error);
+// }
+
+if (import.meta.url === `file://${process.argv[1]}`) {
     main().catch(console.error);
 }
 
